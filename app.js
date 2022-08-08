@@ -36,7 +36,18 @@ const shop = [
 const output = shop.map(item => item.name);
 const output1 = shop.map(item => item.price);
 // for each on array 
-shop.forEach(item => console.log(item));
+// shop.forEach(item => console.log(item));
 
+// filter apply on array 
+const products = [
+    { name: 'panjabi', price: 1500, color: 'green' },
+    { name: 'pajam', price: 780, color: 'yellow' },
+    { name: 'sandal', price: 1100, color: 'black' },
+    { name: 'pant', price: 890, color: 'white' },
+    { name: 'shirt', price: 500, color: 'white' }
+];
+// const item1 = products.filter(product => product.price > 1000)
+// const item1 = products.filter(product => product.color == 'white')
+const item1 = products.find(product => product.color == 'white')
 
 
