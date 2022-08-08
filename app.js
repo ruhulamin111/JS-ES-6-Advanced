@@ -21,5 +21,10 @@ const oil = [80, 120, 200];
 const [x, y] = oil;
 // console.log(x, y?.b?.a);
 
+// map on an array
+const marksheet = [14, 25, 68, 39, 80, 86, 72];
+let output = [];
+const gpa = marksheet.map(mark => mark * 2)
+
 
 
