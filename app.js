@@ -23,8 +23,20 @@ const [x, y] = oil;
 
 // map on an array
 const marksheet = [14, 25, 68, 39, 80, 86, 72];
-let output = [];
 const gpa = marksheet.map(mark => mark * 2)
+
+// map on the string array 
+const shop = [
+    { name: 'panjabi', price: 1500, color: 'white' },
+    { name: 'pajam', price: 780, color: 'white' },
+    { name: 'sandal', price: 1100, color: 'white' },
+    { name: 'pant', price: 890, color: 'white' },
+    { name: 'shirt', price: 500, color: 'white' }
+];
+const output = shop.map(item => item.name);
+const output1 = shop.map(item => item.price);
+// for each on array 
+shop.forEach(item => console.log(item));
 
 
 
