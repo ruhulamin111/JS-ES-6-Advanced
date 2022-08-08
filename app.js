@@ -50,4 +50,17 @@ const products = [
 // const item1 = products.filter(product => product.color == 'white')
 const item1 = products.find(product => product.color == 'white')
 
+// create a class 
+class Developer {
+    name;
+    designation;
+    phone;
+    constructor(name, designation, phone) {
+        this.name = name,
+            this.designation = designation,
+            this.phone = phone
+    }
+}
+const input = new Developer('Ruhul', 'MERN Developer', 220077);
+console.log(input);
 
