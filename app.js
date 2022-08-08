@@ -1,3 +1,4 @@
+// destucturing of object 
 const brainStain = {
     id: 1,
     designation: 'Jr Web Developer',
@@ -9,6 +10,16 @@ const brainStain = {
         basic: 'html css js',
     }
 }
-
 const { basic, learner } = brainStain.skills;
-console.log(basic);
+
+// destucturing of array 
+const fuel = [24, 56, 89, 234];
+const [a, b] = fuel;
+
+// optional chaining 
+const oil = [80, 120, 200];
+const [x, y] = oil;
+// console.log(x, y?.b?.a);
+
+
+
